@@ -1,0 +1,101 @@
+/* Общие стили */
+body {
+    font-family: black-chancery, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+im {
+    float: center;
+
+
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Стили для навигации */
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+/* Стили для секции "hero" */
+#hero {
+    background-color: #e9ecef;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Стили для списка сериалов на главной странице */
+#top-serials ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#top-serials li {
+    margin: 10px 0;
+}
+
+/* Стили для секции информации о сериале */
+#serial-info {
+    padding: 20px;
+}
+
+#serial-info img {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+}
+
+.feature-title
+{
+    color: crimson;
+}
+
+.center
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.list-serials {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
