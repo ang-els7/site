@@ -43,6 +43,7 @@ nav ul {
 nav li {
     display: inline;
     margin: 0 20px;
+    color: #7abaff;
 }
 
 nav a {
@@ -91,11 +92,11 @@ nav a {
 
 .list-serials {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #413b3b;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
     display: inline-block;
-    width: 300px;
+    width: 350px;
     text-align: left;
 }
